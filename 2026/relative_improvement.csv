@@ -1,0 +1,6 @@
+Method,Improvement(%)
+"Frozen CLIP
++ MLP",11.38
+CLIP-Adapter,11.89
+"Prompt-Gated
+CLIP-Adapter",11.67

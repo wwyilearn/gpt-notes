@@ -1,0 +1,6 @@
+Method,Mean
+"Frozen CLIP
++ MLP",9.5262
+CLIP-Adapter,9.4711
+"Prompt-Gated
+CLIP-Adapter",9.495

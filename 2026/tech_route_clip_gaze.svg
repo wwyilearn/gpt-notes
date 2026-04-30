@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1260" viewBox="0 0 1600 1260">
+<rect width="100%" height="100%" fill="white"/>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#4b5563"/></marker>
+<style>text{font-family:'Noto Sans CJK SC','Microsoft YaHei','SimHei','PingFang SC',Arial,sans-serif;dominant-baseline:middle;fill:#263238;}</style>
+</defs>
+<rect x="5" y="5" width="1590" height="70" rx="5" ry="5" fill="#d9ebfa" stroke="#8eb2d2" stroke-width="2"/>
+<text x="800" y="40" font-size="28" font-weight="700" text-anchor="middle" fill="#263238">基于 CLIP 与提示词的三维注视估计技术路线图</text>
+<line x1="800" y1="75" x2="800" y2="110" stroke="#4b5563" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="80" y="110" width="1440" height="85" rx="6" ry="6" fill="#edf2f6" stroke="#c7d2da" stroke-width="2"/>
+<text x="800" y="142" font-size="22" font-weight="700" text-anchor="middle" fill="#263238">研究背景与问题分析</text>
+<text x="800" y="173" font-size="15" font-weight="600" text-anchor="middle" fill="#5b6770">传统模型跨受试者泛化有限；CLIP 视觉特征具有迁移潜力；固定提示词对连续回归任务的表达能力仍待验证</text>
+<polyline points="800,195 800,225 220,225 220,252" fill="none" stroke="#4b5563" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="800,195 800,252" fill="none" stroke="#4b5563" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="800,195 1360,225 1360,252" fill="none" stroke="#4b5563" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="10" y="255" width="420" height="115" rx="8" ry="8" fill="#eaf4ff" stroke="#9fc4e6" stroke-width="2"/>
+<text x="220" y="286" font-size="20" font-weight="700" text-anchor="middle" fill="#263238">数据基础</text>
+<text x="220" y="319.0" font-size="16" font-weight="600" text-anchor="middle" fill="#263238">MPIIFaceGaze 数据集</text>
+<text x="220" y="341.0" font-size="16" font-weight="600" text-anchor="middle" fill="#263238">全脸图像、pose、gaze 标签</text>
+<rect x="585" y="255" width="430" height="115" rx="8" ry="8" fill="#fff6df" stroke="#e5c36d" stroke-width="2"/>
+<text x="800" y="286" font-size="20" font-weight="700" text-anchor="middle" fill="#263238">实验设置</text>
+<text x="800" y="308.0" font-size="16" font-weight="600" text-anchor="middle" fill="#263238">224×224 输入尺寸</text>
+<text x="800" y="330.0" font-size="16" font-weight="600" text-anchor="middle" fill="#263238">CLIP 归一化</text>
+<text x="800" y="352.0" font-size="16" font-weight="600" text-anchor="middle" fill="#263238">简化版 LOPO（test_id=0/1/2）</text>
+<rect x="1170" y="255" width="390" height="115" rx="8" ry="8" fill="#edf9ea" stroke="#9ac892" stroke-width="2"/>
+<text x="1365" y="286" font-size="20" font-weight="700" text-anchor="middle" fill="#263238">任务目标</text>
+<text x="1365" y="319.0" font-size="16" font-weight="600" text-anchor="middle" fill="#263238">输出 yaw / pitch</text>
+<text x="1365" y="341.0" font-size="16" font-weight="600" text-anchor="middle" fill="#263238">采用平均角度误差评价最终三维注视方向</text>
+<polyline points="220,370 220,402 800,402" fill="none" stroke="#5e86a7" stroke-width="3"/>
+<polyline points="1365,370 1365,402 800,402" fill="none" stroke="#5e86a7" stroke-width="3"/>
+<line x1="800" y1="370" x2="800" y2="430" stroke="#5e86a7" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="0" y="430" width="1600" height="365" rx="32" ry="32" fill="#f8fbfd" stroke="#d1dce4" stroke-width="2"/>
+<text x="800" y="470" font-size="24" font-weight="700" text-anchor="middle" fill="#263238">递进式模型设计与核心实验框架</text>
+<rect x="50" y="545" width="270" height="92" rx="6" ry="6" fill="#f3f9ff" stroke="#b6d3ed" stroke-width="2"/>
+<text x="185" y="569.0" font-size="16" font-weight="700" text-anchor="middle" fill="#263238">Exp1</text>
+<text x="185" y="591.0" font-size="16" font-weight="700" text-anchor="middle" fill="#263238">ResNet baseline</text>
+<text x="185" y="613.0" font-size="16" font-weight="700" text-anchor="middle" fill="#263238">构建传统视觉基线</text>
+<rect x="390" y="545" width="350" height="92" rx="6" ry="6" fill="#f3fff2" stroke="#bddbb7" stroke-width="2"/>
+<text x="565" y="570.0" font-size="15" font-weight="700" text-anchor="middle" fill="#263238">Exp2-A</text>
+<text x="565" y="591.0" font-size="15" font-weight="700" text-anchor="middle" fill="#263238">Frozen CLIP image encoder + MLP</text>
+<text x="565" y="612.0" font-size="15" font-weight="700" text-anchor="middle" fill="#263238">验证 CLIP 视觉特征迁移能力</text>
+<rect x="810" y="545" width="315" height="92" rx="6" ry="6" fill="#fff0f2" stroke="#dca6ae" stroke-width="2"/>
+<text x="967" y="562.5" font-size="15" font-weight="700" text-anchor="middle" fill="#263238">Exp2-B</text>
+<text x="967" y="581.5" font-size="15" font-weight="700" text-anchor="middle" fill="#263238">CLIP-Adapter</text>
+<text x="967" y="600.5" font-size="15" font-weight="700" text-anchor="middle" fill="#263238">引入轻量特征适配模块</text>
+<text x="967" y="619.5" font-size="15" font-weight="700" text-anchor="middle" fill="#263238">增强任务适配能力</text>
+<rect x="1195" y="545" width="340" height="92" rx="6" ry="6" fill="#f6f0ff" stroke="#c3a9e5" stroke-width="2"/>
+<text x="1365" y="562.5" font-size="15" font-weight="700" text-anchor="middle" fill="#263238">Exp3</text>
+<text x="1365" y="581.5" font-size="15" font-weight="700" text-anchor="middle" fill="#263238">Prompt-Gated CLIP-Adapter</text>
+<text x="1365" y="600.5" font-size="15" font-weight="700" text-anchor="middle" fill="#263238">利用固定提示词与门控机制</text>
+<text x="1365" y="619.5" font-size="15" font-weight="700" text-anchor="middle" fill="#263238">探索语义辅助作用</text>
+<line x1="320" y1="591" x2="390" y2="591" stroke="#5e86a7" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="740" y1="591" x2="810" y2="591" stroke="#5e86a7" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="1125" y1="591" x2="1195" y2="591" stroke="#5e86a7" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="348" y="680" width="900" height="56" rx="3" ry="3" fill="white" stroke="#d0dbe3" stroke-width="1.5"/>
+<text x="798" y="708" font-size="16" font-weight="600" text-anchor="middle" fill="#5b6770">统一训练设置：15 个 epoch · Adam 优化器 · L1 损失 · 相同数据划分</text>
+<rect x="220" y="760" width="1160" height="46" rx="3" ry="3" fill="white" stroke="#d0dbe3" stroke-width="1.5"/>
+<text x="800" y="783" font-size="15" font-weight="600" text-anchor="middle" fill="#5b6770">主实验用于比较不同模型的相对性能；提示词相关实验用于分析固定提示词的实际作用与局限</text>
+<line x1="800" y1="795" x2="800" y2="855" stroke="#4b5563" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="0" y="850" width="1600" height="315" rx="30" ry="30" fill="#f8fbfd" stroke="#d1dce4" stroke-width="2"/>
+<text x="800" y="895" font-size="24" font-weight="700" text-anchor="middle" fill="#263238">实验分析、论文结论与研究输出</text>
+<rect x="50" y="970" width="360" height="70" rx="6" ry="6" fill="#f4faff" stroke="#b8d5ed" stroke-width="2"/>
+<text x="230" y="987.0" font-size="15" font-weight="600" text-anchor="middle" fill="#263238">主实验结果分析</text>
+<text x="230" y="1005.0" font-size="15" font-weight="600" text-anchor="middle" fill="#263238">比较 ResNet baseline、Frozen CLIP、</text>
+<text x="230" y="1023.0" font-size="15" font-weight="600" text-anchor="middle" fill="#263238">CLIP-Adapter 与 Prompt-Gated CLIP-Adapter</text>
+<rect x="455" y="970" width="360" height="70" rx="6" ry="6" fill="#fff0f2" stroke="#dca6ae" stroke-width="2"/>
+<text x="635" y="987.0" font-size="15" font-weight="600" text-anchor="middle" fill="#263238">固定提示词消融实验</text>
+<text x="635" y="1005.0" font-size="15" font-weight="600" text-anchor="middle" fill="#263238">Full prompts / Direction-only prompts /</text>
+<text x="635" y="1023.0" font-size="15" font-weight="600" text-anchor="middle" fill="#263238">Prompt concat / Prompt gate</text>
+<rect x="860" y="970" width="300" height="70" rx="6" ry="6" fill="#f4fff2" stroke="#bddbb7" stroke-width="2"/>
+<text x="1010" y="987.0" font-size="15" font-weight="600" text-anchor="middle" fill="#263238">核心实验结论</text>
+<text x="1010" y="1005.0" font-size="15" font-weight="600" text-anchor="middle" fill="#263238">CLIP 视觉迁移有效</text>
+<text x="1010" y="1023.0" font-size="15" font-weight="600" text-anchor="middle" fill="#263238">CLIP-Adapter 平均结果最优</text>
+<rect x="1200" y="970" width="340" height="70" rx="6" ry="6" fill="#f6f0ff" stroke="#c3a9e5" stroke-width="2"/>
+<text x="1370" y="987.0" font-size="15" font-weight="600" text-anchor="middle" fill="#263238">论文最终结论与展望</text>
+<text x="1370" y="1005.0" font-size="15" font-weight="600" text-anchor="middle" fill="#263238">固定提示词可提供一定语义辅助</text>
+<text x="1370" y="1023.0" font-size="15" font-weight="600" text-anchor="middle" fill="#263238">但对连续回归任务仍存在明显局限</text>
+<line x1="800" y1="1165" x2="800" y2="1205" stroke="#4b5563" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="185" y="1200" width="1230" height="55" rx="4" ry="4" fill="#edf2f6" stroke="#c7d2da" stroke-width="2"/>
+<text x="800" y="1228" font-size="20" font-weight="700" text-anchor="middle" fill="#263238">研究逻辑：数据与评估设置 → 递进式模型设计 → 主实验与消融分析 → 论文结论与未来工作</text>
+</svg>

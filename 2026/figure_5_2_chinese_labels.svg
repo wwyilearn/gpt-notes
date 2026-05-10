@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="748.890625pt" height="439.491875pt" viewBox="0 0 748.890625 439.491875" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-05-10T19:31:03.451583</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 439.491875 
+L 748.890625 439.491875 
+L 748.890625 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 55.865625 411.966875 
+L 741.690625 411.966875 
+L 741.690625 36.526875 
+L 55.865625 36.526875 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m1eed360137" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m1eed360137" x="169.558539" y="411.966875" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 13px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="169.558539" y="429.314062" transform="rotate(-0 169.558539 429.314062)">test0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m1eed360137" x="398.778125" y="411.966875" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 13px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="398.778125" y="429.314062" transform="rotate(-0 398.778125 429.314062)">test1</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m1eed360137" x="627.997711" y="411.966875" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 13px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="627.997711" y="429.314062" transform="rotate(-0 627.997711 429.314062)">test2</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4">
+      <path d="M 55.865625 385.149732 
+L 741.690625 385.149732 
+" clip-path="url(#p0d9b3ebe8d)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.45; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_5">
+      <defs>
+       <path id="m8523bdd4b9" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m8523bdd4b9" x="55.865625" y="385.149732" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 12px; font-family: 'Noto Sans CJK JP'; text-anchor: end" x="48.865625" y="389.925357" transform="rotate(-0 48.865625 389.925357)">9.0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_6">
+      <path d="M 55.865625 318.106875 
+L 741.690625 318.106875 
+" clip-path="url(#p0d9b3ebe8d)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.45; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m8523bdd4b9" x="55.865625" y="318.106875" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 12px; font-family: 'Noto Sans CJK JP'; text-anchor: end" x="48.865625" y="322.8825" transform="rotate(-0 48.865625 322.8825)">9.5</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_8">
+      <path d="M 55.865625 251.064018 
+L 741.690625 251.064018 
+" clip-path="url(#p0d9b3ebe8d)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.45; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m8523bdd4b9" x="55.865625" y="251.064018" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 12px; font-family: 'Noto Sans CJK JP'; text-anchor: end" x="48.865625" y="255.839643" transform="rotate(-0 48.865625 255.839643)">10.0</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_10">
+      <path d="M 55.865625 184.021161 
+L 741.690625 184.021161 
+" clip-path="url(#p0d9b3ebe8d)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.45; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m8523bdd4b9" x="55.865625" y="184.021161" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 12px; font-family: 'Noto Sans CJK JP'; text-anchor: end" x="48.865625" y="188.796786" transform="rotate(-0 48.865625 188.796786)">10.5</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_12">
+      <path d="M 55.865625 116.978304 
+L 741.690625 116.978304 
+" clip-path="url(#p0d9b3ebe8d)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.45; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m8523bdd4b9" x="55.865625" y="116.978304" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 12px; font-family: 'Noto Sans CJK JP'; text-anchor: end" x="48.865625" y="121.753929" transform="rotate(-0 48.865625 121.753929)">11.0</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_14">
+      <path d="M 55.865625 49.935446 
+L 741.690625 49.935446 
+" clip-path="url(#p0d9b3ebe8d)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.45; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m8523bdd4b9" x="55.865625" y="49.935446" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 12px; font-family: 'Noto Sans CJK JP'; text-anchor: end" x="48.865625" y="54.711071" transform="rotate(-0 48.865625 54.711071)">11.5</text>
+     </g>
+    </g>
+    <g id="text_10">
+     <text style="font-size: 14px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="18.343125" y="224.246875" transform="rotate(-90 18.343125 224.246875)">角度误差（°）</text>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 87.039489 1591.921161 
+L 128.299014 1591.921161 
+L 128.299014 87.358769 
+L 87.039489 87.358769 
+z
+" clip-path="url(#p0d9b3ebe8d)" style="fill: #b7c5b0"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 316.259074 1591.921161 
+L 357.5186 1591.921161 
+L 357.5186 156.386095 
+L 316.259074 156.386095 
+z
+" clip-path="url(#p0d9b3ebe8d)" style="fill: #b7c5b0"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 545.47866 1591.921161 
+L 586.738185 1591.921161 
+L 586.738185 208.049321 
+L 545.47866 208.049321 
+z
+" clip-path="url(#p0d9b3ebe8d)" style="fill: #b7c5b0"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 128.299014 1591.921161 
+L 169.558539 1591.921161 
+L 169.558539 238.741541 
+L 128.299014 238.741541 
+z
+" clip-path="url(#p0d9b3ebe8d)" style="fill: #d8959e"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 357.5186 1591.921161 
+L 398.778125 1591.921161 
+L 398.778125 344.642438 
+L 357.5186 344.642438 
+z
+" clip-path="url(#p0d9b3ebe8d)" style="fill: #d8959e"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 586.738185 1591.921161 
+L 627.997711 1591.921161 
+L 627.997711 360.410918 
+L 586.738185 360.410918 
+z
+" clip-path="url(#p0d9b3ebe8d)" style="fill: #d8959e"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 169.558539 1591.921161 
+L 210.818065 1591.921161 
+L 210.818065 256.159275 
+L 169.558539 256.159275 
+z
+" clip-path="url(#p0d9b3ebe8d)" style="fill: #ad4658"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 398.778125 1591.921161 
+L 440.03765 1591.921161 
+L 440.03765 341.035532 
+L 398.778125 341.035532 
+z
+" clip-path="url(#p0d9b3ebe8d)" style="fill: #ad4658"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 627.997711 1591.921161 
+L 669.257236 1591.921161 
+L 669.257236 368.737641 
+L 627.997711 368.737641 
+z
+" clip-path="url(#p0d9b3ebe8d)" style="fill: #ad4658"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 210.818065 1591.921161 
+L 252.07759 1591.921161 
+L 252.07759 242.133909 
+L 210.818065 242.133909 
+z
+" clip-path="url(#p0d9b3ebe8d)" style="fill: #c75868"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 440.03765 1591.921161 
+L 481.297176 1591.921161 
+L 481.297176 349.523158 
+L 440.03765 349.523158 
+z
+" clip-path="url(#p0d9b3ebe8d)" style="fill: #c75868"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 669.257236 1591.921161 
+L 710.516761 1591.921161 
+L 710.516761 364.674844 
+L 669.257236 364.674844 
+z
+" clip-path="url(#p0d9b3ebe8d)" style="fill: #c75868"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 55.865625 411.966875 
+L 55.865625 36.526875 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 741.690625 411.966875 
+L 741.690625 36.526875 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 55.865625 411.966875 
+L 741.690625 411.966875 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 55.865625 36.526875 
+L 741.690625 36.526875 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 9px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="107.669251" y="81.945064" transform="rotate(-0 107.669251 81.945064)">11.2209</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 9px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="336.888837" y="150.97239" transform="rotate(-0 336.888837 150.97239)">10.7061</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 9px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="566.108422" y="202.635615" transform="rotate(-0 566.108422 202.635615)">10.3208</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 9px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="148.928777" y="233.327835" transform="rotate(-0 148.928777 233.327835)">10.0919</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 9px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="378.148362" y="339.228733" transform="rotate(-0 378.148362 339.228733)">9.3021</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 9px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="607.367948" y="354.997212" transform="rotate(-0 607.367948 354.997212)">9.1845</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 9px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="190.188302" y="250.74557" transform="rotate(-0 190.188302 250.74557)">9.9620</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 9px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="419.407888" y="335.621827" transform="rotate(-0 419.407888 335.621827)">9.3290</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 9px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="648.627473" y="363.323935" transform="rotate(-0 648.627473 363.323935)">9.1224</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 9px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="231.447828" y="236.720204" transform="rotate(-0 231.447828 236.720204)">10.0666</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 9px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="460.667413" y="344.109452" transform="rotate(-0 460.667413 344.109452)">9.2657</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 9px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="689.886999" y="359.261138" transform="rotate(-0 689.886999 359.261138)">9.1527</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 18px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="398.778125" y="21.526875" transform="rotate(-0 398.778125 21.526875)">图 5-2 不同 test_id 下的角度误差</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_19">
+     <path d="M 556.802969 55.182187 
+L 578.802969 55.182187 
+L 578.802969 47.482187 
+L 556.802969 47.482187 
+z
+" style="fill: #b7c5b0"/>
+    </g>
+    <g id="text_24">
+     <text style="font-size: 11px; font-family: 'Noto Sans CJK JP'; text-anchor: start" x="587.602969" y="55.182187" transform="rotate(-0 587.602969 55.182187)">ResNet 基线模型</text>
+    </g>
+    <g id="patch_20">
+     <path d="M 556.802969 71.957187 
+L 578.802969 71.957187 
+L 578.802969 64.257187 
+L 556.802969 64.257187 
+z
+" style="fill: #d8959e"/>
+    </g>
+    <g id="text_25">
+     <text style="font-size: 11px; font-family: 'Noto Sans CJK JP'; text-anchor: start" x="587.602969" y="71.957187" transform="rotate(-0 587.602969 71.957187)">冻结 CLIP 图像编码器 + MLP</text>
+    </g>
+    <g id="patch_21">
+     <path d="M 556.802969 88.732187 
+L 578.802969 88.732187 
+L 578.802969 81.032187 
+L 556.802969 81.032187 
+z
+" style="fill: #ad4658"/>
+    </g>
+    <g id="text_26">
+     <text style="font-size: 11px; font-family: 'Noto Sans CJK JP'; text-anchor: start" x="587.602969" y="88.732187" transform="rotate(-0 587.602969 88.732187)">CLIP-Adapter</text>
+    </g>
+    <g id="patch_22">
+     <path d="M 556.802969 105.507187 
+L 578.802969 105.507187 
+L 578.802969 97.807187 
+L 556.802969 97.807187 
+z
+" style="fill: #c75868"/>
+    </g>
+    <g id="text_27">
+     <text style="font-size: 11px; font-family: 'Noto Sans CJK JP'; text-anchor: start" x="587.602969" y="105.507187" transform="rotate(-0 587.602969 105.507187)">Prompt-Gated CLIP-Adapter</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p0d9b3ebe8d">
+   <rect x="55.865625" y="36.526875" width="685.825" height="375.44"/>
+  </clipPath>
+ </defs>
+</svg>
